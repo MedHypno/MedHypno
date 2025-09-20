@@ -11,7 +11,7 @@
   --encre-douce:#2f3d43;
   --ombre: 0 10px 30px rgba(0,0,0,.06);
   --rayon: 16px;
-  --container: 1100px;
+  --container: 1200px;
 }
 
 *{box-sizing:border-box}
@@ -35,9 +35,9 @@ h1{font-size: clamp(2rem, 4vw + 1rem, 3.2rem); line-height:1.15}
 h2.title-lg{font-size: clamp(1.6rem, 1.2rem + 2vw, 2.2rem); line-height:1.25}
 h3{font-size:1.6rem}
 h4{font-size:1.15rem; margin-top:1.2rem}
-h5{font-size:1.05rem; margin:.2rem 0 .4rem}
+h5{font-size:1.05rem; margin:.2rem 0 .4rem;}
 
-p{margin:.7rem 0 1rem; max-width:70ch}
+p{margin:.7rem 0 1rem; text-align: justify; /*max-width:70ch*/}
 
 .container{
   width:min(100% - 2rem, var(--container));
@@ -75,7 +75,7 @@ p{margin:.7rem 0 1rem; max-width:70ch}
 .site-header{
   position:fixed; top:0; left:0 ; width:100% ; z-index:10;
   background: rgba(250,249,246,.8);
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(19px);
   border-bottom:1px solid var(--gris-clair);
 }
 
@@ -162,7 +162,15 @@ p{margin:.7rem 0 1rem; max-width:70ch}
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 .specialties li{
-  padding:1rem 1rem 1.1rem; border:1px solid var(--gris-clair); border-radius:14px; background:#fff; box-shadow: var(--ombre);
+  text-align:center; padding:1rem 1rem 1.1rem; border:1px solid var(--gris-clair); border-radius:14px; background:#fff; box-shadow: var(--ombre);
+}
+
+.specialty-img {
+  width: 80px;      /* adjust size as needed */
+  height: 80px;     /* keep uniform square */
+  object-fit: cover;
+  border-radius: 50%; /* circular images */
+  margin-bottom: 10px;
 }
 
 /* Blockquote */
