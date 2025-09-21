@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Page d'accueil -->
+  <url>
+    <loc>https://medhypno.github.io/MedHypno/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://medhypno.github.io/MedHypno/#hypnotherapie</loc>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <!-- Exemple autres pages (ajoute celles que tu as vraiment dans ton site) -->
+ 
+   <url>
+    <loc>https://medhypno.github.io/MedHypno/#specialites</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://medhypno.github.io/MedHypno/contact.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://medhypno.github.io/MedHypno/about.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
