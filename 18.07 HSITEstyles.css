@@ -173,6 +173,14 @@ p{margin:.7rem 0 1rem; text-align: justify; /*max-width:70ch*/}
   margin-bottom: 10px;
 }
 
+.specialty2-img {
+  width: 39px;      /* adjust size as needed */
+  height: 39px;     /* keep uniform square */
+  object-fit: cover;
+  border-radius: 0%; /* circular images */
+  margin-bottom: 5px;
+}
+
 /* Blockquote */
 blockquote{
   margin:0; padding:1.2rem 1.4rem; border-left:4px solid var(--bleu-doux);
