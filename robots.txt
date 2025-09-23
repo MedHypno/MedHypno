@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://medhypno.github.io/MedHypno/sitemap.xml
+Sitemap: https://www.medhypno.fr/sitemap.xml
