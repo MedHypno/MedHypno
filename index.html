@@ -65,9 +65,78 @@
           dépasser les blocages,<br />
           renouer avec vous‑même
         </h1>
-        <a class="btn btn-primary" href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/m-metheni/60min?hide_event_type_details=1&background_color=FAF9F6&primary_color=6BA58B&locale=fr'});return false;" >APPEL DÉCOUVERTE</a>
-      </div>
-    </section> 
+        <!-- Bouton qui ouvre le popup -->
+<a class="btn btn-primary" href="#" onclick="openContactForm(); return false;">APPEL DÉCOUVERTE</a>
+
+<!-- La modale -->
+<div id="contactModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeContactForm()">&times;</span>
+    <h2>Contactez-nous</h2>
+    <form class="contact-form" action="https://formsubmit.co/contact@medhypno.fr" method="post">
+      <label for="name">Nom</label>
+      <input id="name" name="name" type="text" required />
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required />
+
+      <label for="phone">Téléphone</label>
+      <input id="phone" name="phone" type="tel" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button class="btn btn-primary" type="submit">Envoyer</button>
+    </form>
+  </div>
+</div>
+
+<!-- Styles pour le popup -->
+<style>
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+  background: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.close {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+}
+</style>
+
+<!-- Script pour ouvrir/fermer -->
+<script>
+function openContactForm() {
+  document.getElementById("contactModal").style.display = "block";
+}
+
+function closeContactForm() {
+  document.getElementById("contactModal").style.display = "none";
+}
+
+// Fermer si on clique à l’extérieur
+window.onclick = function(event) {
+  const modal = document.getElementById("contactModal");
+  if (event.target === modal) {
+    modal.style.display = "none";
+  }
+}
+</script> 
 
     <!-- Hypnothérapie -->
     <section id="hypnotherapie" class="section">
