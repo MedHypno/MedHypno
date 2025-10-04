@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
+User-agent: *
+Disallow: /confidentialite.html
+
 Sitemap: https://www.medhypno.fr/sitemap.xml
