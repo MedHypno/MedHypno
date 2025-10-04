@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Politique de confidentialité – MedHypno</title>
+
+  <!-- EMPÊCHER L’INDEXATION / CRAWL -->
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, max-image-preview:none, max-video-preview:0, max-snippet:0">
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, max-image-preview:none, max-video-preview:0, max-snippet:0">
+
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,sans-serif;line-height:1.6;margin:0;background:#FAF9F6;color:#1f2937}
+    .container{max-width:900px;margin:0 auto;padding:32px}
+    h1{font-size:2rem;margin-bottom:0.75rem}
+    h2{font-size:1.25rem;margin-top:1.75rem}
+    .muted{color:#6b7280;font-size:0.95rem}
+    a{color:#2563eb}
+    .card{background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:24px;margin-top:16px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+    ul{padding-left:1.2rem}
+    code{background:#f3f4f6;padding:0 4px;border-radius:4px}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Politique de confidentialité</h1>
+    <p class="muted">Dernière mise à jour : 4 octobre 2025</p>
+
+    <section class="card">
+      <h2>1) Responsable de traitement</h2>
+      <p><strong>MedHypno</strong> – Micro-entreprise de <strong>[Nom et prénom]</strong><br>
+      Adresse : <strong>[adresse de domiciliation]</strong><br>
+      SIREN : <strong>[à compléter]</strong><br>
+      E-mail : <a href="mailto:contact@medhypno.fr">contact@medhypno.fr</a><br>
+      Téléphone : <strong>[à compléter]</strong><br>
+      Site : <a href="https://www.medhypno.fr/">www.MedHypno.fr</a></p>
+    </section>
+
+    <section class="card">
+      <h2>2) Données collectées</h2>
+      <ul>
+        <li>Données d’identification et de contact (nom, e-mail, téléphone le cas échéant)</li>
+        <li>Contenu des messages transmis via le formulaire de contact</li>
+        <li>Données de rendez-vous via un prestataire (Calendly)</li>
+        <li>Données techniques et de navigation (pages, horodatage, cookies, IP éventuellement abrégée)</li>
+        <li>Données de facturation si applicable (adresse, e-mail). Les paiements sont traités par un prestataire tiers.</li>
+      </ul>
+      <p><strong>Santé :</strong> activité de bien-être non médicale. Merci de ne pas communiquer d’informations médicales sensibles.</p>
+    </section>
+
+    <section class="card">
+      <h2>3) Finalités et bases légales</h2>
+      <ul>
+        <li>Réponse aux demandes (intérêt légitime et/ou mesures précontractuelles)</li>
+        <li>Prise de rendez-vous et organisation des séances (exécution contractuelle)</li>
+        <li>Gestion administrative/comptable (obligation légale)</li>
+        <li>Mesure d’audience/Amélioration du site (consentement cookies)</li>
+        <li>Sécurité et prévention de la fraude (intérêt légitime)</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>4) Destinataires et sous-traitants</h2>
+      <ul>
+        <li>Hébergement : GitHub Pages (GitHub, Inc.)</li>
+        <li>Nom de domaine / e-mail : OVHcloud</li>
+        <li>Formulaire : FormSubmit (formsubmit.co)</li>
+        <li>Rendez-vous : Calendly</li>
+        <li>Mesure d’audience : Google Analytics</li>
+      </ul>
+      <p>Certains prestataires pouvant être situés hors UE, des garanties adéquates (clauses contractuelles types) sont mises en place.</p>
+    </section>
+
+    <section class="card">
+      <h2>5) Durées de conservation</h2>
+      <ul>
+        <li>Contact : 3 ans après le dernier échange</li>
+        <li>Prospection (newsletter) : jusqu’au retrait du consentement ou 3 ans après le dernier contact</li>
+        <li>Dossiers et rendez-vous : durée de la relation puis 5 ans</li>
+        <li>Factures : 10 ans</li>
+        <li>Cookies : durée maximale 13 mois ; preuve du choix 6 mois</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>6) Cookies et traceurs</h2>
+      <p>Le site dépose des cookies strictement nécessaires et, sous réserve de votre consentement, des cookies de mesure d’audience et/ou de services tiers (ex. Calendly).</p>
+      <p>Vous pouvez gérer vos préférences via le bandeau et le lien «&nbsp;Préférences cookies&nbsp;» en pied de page, ou via votre navigateur. Vous pouvez retirer votre consentement à tout moment.</p>
+    </section>
+
+    <section class="card">
+      <h2>7) Sécurité</h2>
+      <p>Mesures techniques et organisationnelles raisonnables (chiffrement en transit, contrôle d’accès, mises à jour régulières) adaptées à la nature des données.</p>
+    </section>
+
+    <section class="card">
+      <h2>8) Vos droits</h2>
+      <p>Vous disposez des droits d’accès, rectification, effacement, limitation, portabilité, opposition et retrait du consentement. Vous pouvez définir des directives post-mortem.</p>
+      <p>Contact : <a href="mailto:contact@medhypno.fr">contact@medhypno.fr</a>. Vous pouvez saisir la CNIL (France).</p>
+    </section>
+
+    <section class="card">
+      <h2>9) Mineurs</h2>
+      <p>Le site s’adresse aux personnes majeures. Les mineurs utilisent le site et prennent rendez-vous avec l’accord de leurs représentants légaux.</p>
+    </section>
+
+    <section class="card">
+      <h2>10) Liens externes</h2>
+      <p>Des liens vers des sites tiers peuvent exister. Leur politique de confidentialité s’applique ; nous vous invitons à la consulter.</p>
+    </section>
+
+    <section class="card">
+      <h2>11) Modifications</h2>
+      <p>Cette politique peut évoluer. La date de mise à jour figure en en-tête.</p>
+    </section>
+  </main>
+</body>
+</html>
