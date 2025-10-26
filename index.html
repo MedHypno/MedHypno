@@ -39,7 +39,7 @@
           <li><a href="#seance">La séance</a></li>
           <li><a href="#temoignages">Témoignages</a></li>
           <li><a href="#apropos">À propos</a></li>
-          <li><a class="btn btn-small" href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/m-metheni/60min?hide_event_type_details=1&background_color=FAF9F6&primary_color=6BA58B&locale=fr'});return false;" clas="book-cta">Prendre rendez‑vous</a></li>
+          <li><a class="btn btn-small" href="#" onclick="openTidycalModal(); return false;">Prendre rendez-vous</a></li>
         </ul>
       </nav>
       <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Ouvrir le menu">
@@ -51,12 +51,53 @@
       <a href="#specialites">Spécialités</a>
       <a href="#temoignages">Témoignages</a>
       <a href="#apropos">À propos</a>
-      <a class="btn" href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/m-metheni/60min?hide_event_type_details=1&background_color=FAF9F6&primary_color=6BA58B&locale=fr'});return false;" >Prendre rendez‑vous</a>
+      <a class="btn" href="#" onclick="openTidycalModal(); return false;">Prendre rendez-vous</a>
     </nav>
   </header>
 
   <main id="accueil">
     <!-- Hero -->
+
+    <!-- Modal TidyCal -->
+<div id="tidycalModal" class="modal" style="display:none;">
+  <div class="modal-content" style="background:#fff;margin:6% auto;padding:0;border-radius:12px;width:95%;max-width:840px;box-shadow:0 5px 15px rgba(0,0,0,0.3);">
+    <span class="close" onclick="closeTidycalModal()" style="float:right;font-size:24px;cursor:pointer;padding:10px 14px;">&times;</span>
+    <div style="padding:16px 16px 0;">
+      <h2 style="margin:0 0 8px;">Réserver une séance</h2>
+      <p style="margin:0 0 12px;">Choisissez votre créneau ci-dessous.</p>
+    </div>
+
+    <div style="padding:0 16px 16px;">
+      <!-- EMBED TIDYCAL -->
+      <div class="tidycal-embed" data-path="medhypno"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Backdrop style -->
+<style>
+  .modal {
+    position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+  }
+</style>
+
+<!-- Script TidyCal (une seule fois par page) -->
+<script src="https://asset-tidycal.b-cdn.net/js/embed.js" async></script>
+
+<!-- Script d’ouverture/fermeture -->
+<script>
+  function openTidycalModal() {
+    document.getElementById('tidycalModal').style.display = 'block';
+  }
+  function closeTidycalModal() {
+    document.getElementById('tidycalModal').style.display = 'none';
+  }
+  window.addEventListener('click', function(e){
+    const modal = document.getElementById('tidycalModal');
+    if (e.target === modal) closeTidycalModal();
+  });
+</script>
 
  <section class="hero" role="region" aria-label="Message d’accueil">
       <div class="hero-bg" aria-hidden="true"></div>
